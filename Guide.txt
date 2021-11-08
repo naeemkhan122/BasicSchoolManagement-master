@@ -1,0 +1,10 @@
+To make this project work with Microsoft SQL Server first you need to make the connection between Xampp and MS SQL Server. 
+1st Step:
+To make the connection you have to open your Xampp directory, then in PHP directory, then in ext directory and paste the DLL files attached.
+In Short Xampp > PHP > ext
+2nd Step:
+After first step, open Xampp control panel on Apache click on config go in PHP (php.ini) and search for extension=bz2, after that add these two lines:
+extension=php_pdo_sqlsrv_73_ts
+extension=php_sqlsrv_73_ts
+
+and save the file.
